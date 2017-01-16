@@ -1,0 +1,16 @@
+[
+{
+  "modid": "chemicalexpansion",
+  "name": "Chemical Expansion",
+  "description": "Use the real building blocks of the universe!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Xangrim"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

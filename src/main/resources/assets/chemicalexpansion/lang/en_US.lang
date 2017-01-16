@@ -1,0 +1,389 @@
+# Items
+
+# Elements
+item.e_1.name=Hydrogen (H)
+item.e_2.name=Helium (He)
+item.e_3.name=Lithium (Li)
+item.e_4.name=Beryllium (Be)
+item.e_5.name=Boron (B)
+item.e_6.name=Carbon (C)
+item.e_7.name=Nitrogen (N)
+item.e_8.name=Oxygen (O)
+item.e_9.name=Fluorine (F)
+item.e_10.name=Neon (Ne)
+item.e_11.name=Sodium (Na)
+item.e_12.name=Magnesium (Mg)
+item.e_13.name=Aluminium (Al)
+item.e_14.name=Silicon (Si)
+item.e_15.name=Phosphorus (P)
+item.e_16.name=Sulfur (S)
+item.e_17.name=Chlorine (Cl)
+item.e_18.name=Argon (Ar)
+item.e_19.name=Potassium (K)
+item.e_20.name=Calcium (Ca)
+item.e_21.name=Scandium (Sc)
+item.e_22.name=Titanium (Ti)
+item.e_23.name=Vanadium (V)
+item.e_24.name=Chromium (Cr)
+item.e_25.name=Manganese (Mn)
+item.e_26.name=Iron (Fe)
+item.e_27.name=Cobalt (Co)
+item.e_28.name=Nickel (Ni)
+item.e_29.name=Copper (Cu)
+item.e_30.name=Zinc (Zn)
+item.e_31.name=Gallium (Ga)
+item.e_32.name=Germanium (Ge)
+item.e_33.name=Arsenic (As)
+item.e_34.name=Selenium (Se)
+item.e_35.name=Bromine (Br)
+item.e_36.name=Krypton (Kr)
+item.e_37.name=Rubidium (Rb)
+item.e_38.name=Strontium (Sr)
+item.e_39.name=Yttrium (Y)
+item.e_40.name=Zirconium (Zr)
+item.e_41.name=Niobium (Nb)
+item.e_42.name=Molybdenum (Mo)
+item.e_43.name=Technetium (Tc)
+item.e_44.name=Ruthenium (Ru)
+item.e_45.name=Rhodium (Rh)
+item.e_46.name=Palladium (Pd)
+item.e_47.name=Silver (Ag)
+item.e_48.name=Cadmium (Cd)
+item.e_49.name=Indium (In)
+item.e_50.name=Tin (Sn)
+item.e_51.name=Antimony (Sb)
+item.e_52.name=Tellurium (Te)
+item.e_53.name=Iodine (I)
+item.e_54.name=Xenon (Xe)
+item.e_55.name=Cesium (Cs)
+item.e_56.name=Barium (Ba)
+item.e_57.name=Lanthanum (La)
+item.e_58.name=Cerium (Ce)
+item.e_59.name=Praseodymium (Pr)
+item.e_60.name=Neodymium (Nd)
+item.e_61.name=Promethium (Pm)
+item.e_62.name=Samarium (Sm)
+item.e_63.name=Europium (Eu)
+item.e_64.name=Gadolinium (Gd)
+item.e_65.name=Terbium (Tb)
+item.e_66.name=Dysprosium (Dy)
+item.e_67.name=Holmium (Ho)
+item.e_68.name=Erbium (Er)
+item.e_69.name=Thulium (Tm)
+item.e_70.name=Ytterbium (Yb)
+item.e_71.name=Lutetium (Lu)
+item.e_72.name=Hafnium (Hf)
+item.e_73.name=Tantalum (Ta)
+item.e_74.name=Tungsten (W)
+item.e_75.name=Rhenium (Re)
+item.e_76.name=Osmium (Os)
+item.e_77.name=Iridium (Ir)
+item.e_78.name=Platinum (Pt)
+item.e_79.name=Gold (Au)
+item.e_80.name=Mercury (Hg)
+item.e_81.name=Thallium (Tl)
+item.e_82.name=Lead (Pb)
+item.e_83.name=Bismuth (Bi)
+item.e_84.name=Polonium (Po)
+item.e_85.name=Astatine (At)
+item.e_86.name=Radon (Rn)
+item.e_87.name=Francium (Fr)
+item.e_88.name=Radium (Ra)
+item.e_89.name=Actinium (Ac)
+item.e_90.name=Thorium (Th)
+item.e_91.name=Protactinium (Pa)
+item.e_92.name=Uranium (U)
+item.e_93.name=Neptunium (Np)
+item.e_94.name=Plutonium (Pu)
+item.e_95.name=Americium (Am)
+item.e_96.name=Curium (Cm)
+item.e_97.name=Berkelium (Bk)
+item.e_98.name=Californium (Cf)
+item.e_99.name=Einsteinium (Es)
+item.e_100.name=Fermium (Fm)
+item.e_101.name=Mendelevium (Md)
+item.e_102.name=Nobelium (No)
+item.e_103.name=Lawrencium (Lr)
+item.e_104.name=Rutherfordium (Rf)
+item.e_105.name=Dubnium (Db)
+item.e_106.name=Seaborgium (Sg)
+item.e_107.name=Bohrium (Bh)
+item.e_108.name=Hassium (Hs)
+item.e_109.name=Meitnerium (Mt)
+item.e_110.name=Darmstadtium (Ds)
+item.e_111.name=Roentgenium (Rg)
+item.e_112.name=Copenicium (Cn)
+item.e_113.name=Nihonium (Nh)
+item.e_114.name=Flerovium (Fl)
+item.e_115.name=Moscovium (Mc)
+item.e_116.name=Livermorium (Lv)
+item.e_117.name=Tennessine (ts)
+item.e_118.name=Oganesson (Og)
+item.e_119.name=Ununennium (Uue)
+item.e_120.name=Unbinilium (Ubn)
+item.e_121.name=Unbiunium (Ubu)
+item.e_122.name=Unbibium (Ubb)
+item.e_123.name=Unbitrium (Ubt)
+item.e_124.name=Unbiquadium (Ubq)
+item.e_125.name=Unbipentium (Ubp)
+item.e_126.name=Unbihexium (Ubh)
+item.e_127.name=Unbiseptium (Ubs)
+item.e_128.name=Unbioctium (Ubo)
+item.e_129.name=Unbiennium (Ube)
+item.e_130.name=Untrinilium (Utn)
+item.e_131.name=Untriunium (Utu)
+item.e_132.name=Untribium (Utb)
+item.e_133.name=Untritrium (Utt)
+item.e_134.name=Untriquadium (Utq)
+item.e_135.name=Untripentium (Utp)
+item.e_136.name=Untrihexium (Uth)
+item.e_137.name=Untriseptium (Uts)
+item.e_138.name=Untrioctium (Uto)
+item.e_139.name=Untriennium (Ute)
+item.e_140.name=Unquadnilium (Uqn)
+item.e_141.name=Unquadunium (Uqu)
+item.e_142.name=Unquadbium (Uqb)
+item.e_143.name=Unquadtrium (Uqt)
+item.e_144.name=Unquadquadium (Uqq)
+item.e_145.name=Unquadpentium (Uqp)
+item.e_146.name=Unquadhexium (Uqh)
+item.e_147.name=Unquadseptium (Uqs)
+item.e_148.name=Unquadoctium (Uqo)
+item.e_149.name=Unquadennium (Uqe)
+item.e_150.name=Unpentnilium (Upn)
+item.e_151.name=Unpentunium (Upu)
+item.e_152.name=Unpentbium (Upb)
+item.e_153.name=Unpenttrium (Upt)
+item.e_154.name=Unpentquadium (Upq)
+item.e_155.name=Unpentpentium (Upp)
+item.e_156.name=Unpenthexium (Uph)
+item.e_157.name=Unpentseptium (Ups)
+item.e_158.name=Unpentoctium (Upo)
+item.e_159.name=Unpentennium (Upe)
+item.e_160.name=Unhexnilium (Uhn)
+item.e_161.name=Unhexunium (Uhu)
+item.e_162.name=Unhexbium (Uhb)
+item.e_163.name=Unhextrium (Uht)
+item.e_164.name=Unhexquadium (Uhq)
+item.e_165.name=Unhexpentium (Uhp)
+item.e_166.name=Unhexhexium (Uhh)
+item.e_167.name=Unhexseptium (Uhs)
+item.e_168.name=Unhexoctium (Uho)
+item.e_169.name=Unhexennium (Uhe)
+item.e_170.name=Unseptnilium (Usn)
+item.e_171.name=Unseptunium (Usu)
+item.e_172.name=Unseptbium (Usb)
+item.e_173.name=Unsepttrium (Ust)
+
+# Creative Tabs
+
+
+# Other Items
+
+# Space Parts
+
+# Ores
+# Copper
+tile.ore_chalcopyrite.name=Chalcopyrite
+# Zinc
+tile.ore_sphalerite.name=Sphalerite
+# Titanium
+tile.ore_ilmenite.name=Ilmenite
+# Nickel
+tile.ore_garnierite.name=Garnierite
+# Lead
+tile.ore_galena.name=Galena
+# Aluminium
+tile.ore_bauxite.name=Bauxite
+# Tungsten
+tile.ore_wolframite.name=Wolframite
+# Manganese
+tile.ore_pyrolusite.name=Pyrolusite
+
+# Alloy Ingots
+
+
+# Ingots/Materials
+item.vial_hydrogen.name=Vial of Hydrogen
+# Helium
+# Lithium
+item.ingot_beryllium.name=Beryllium Ingot
+# Boron
+# Carbon
+# Nitrogen
+# Oxygen
+# Fluorine
+# Neon
+# Sodium
+item.ingot_magnesium.name=Magnesium Ingot
+item.ingot_aluminium.name=Aluminium Ingot
+item.ingot_silicon.name=Silicon Ingot
+# Phosphorus
+# Sulfur
+# Chlorine
+# Argon
+# Potassium would oxidise too quickly
+# Calcium would oxidise too quickly
+item.ingot_scandium.name=Scandium Ingot
+item.ingot_titanium.name=Titanium Ingot
+item.ingot_vanadium.name=Vanadium Ingot
+item.ingot_chromium.name=Chromium Ingot
+item.ingot_manganese.name=Manganese Ingot
+# Iron already in Minecraft
+item.ingot_cobalt.name=Cobalt Ingot
+item.ingot_nickel.name=Nickel Ingot
+item.ingot_copper.name=Copper Ingot
+item.ingot_zinc.name=Zinc Ingot
+item.ingot_gallium.name=Gallium Ingot
+item.ingot_germanium.name=Germanium Ingot
+item.vial_arsenic.name=Vial of Arsenic
+item.ingot_selenium.name=Selenium Ingot
+# Bromine
+# Krypton
+# Rubidium would oxidise too quickly
+item.vial_strontium.name=Vial of Strontium
+item.ingot_yttrium.name=Yttrium Ingot
+item.ingot_zirconium.name=Zirconium Ingot
+item.ingot_niobium.name=Niobium Ingot
+item.ingot_molybdenum.name=Molybdenum Ingot
+# Technetium eludes me. Apparently not natural
+item.ingot_ruthenium.name=Ruthenium Ingot
+item.ingot_rhodium.name=Rhodium Ingot
+item.ingot_palladium.name=Palladium Ingot
+item.ingot_silver.name=Silver Ingot
+item.ingot_cadmium.name=Cadmium Ingot
+item.ingot_indium.name=Indium Ingot
+item.ingot_tin.name=Tin Ingot
+item.ingot_antimony.name=Antimony Ingot
+item.ingot_tellurium.name=Tellurium Ingot
+# Iodine
+# Xenon
+# Caesium
+# Barium
+# Lanthanum
+# Cerium
+# Praseodymium
+item.ingot_neodymium.name=Neodymium Ingot
+#
+item.ingot_hafnium.name=Hafnium Ingot
+item.ingot_tantalum.name=Tantalum Ingot
+item.ingot_tungsten.name=Tungsten Ingot
+item.ingot_rhenium.name=Rhenium Ingot
+item.ingot_osmium.name=Osmium Ingot
+item.ingot_iridium.name=Iridium Ingot
+item.ingot_platinum.name=Platinum Ingot
+# Gold already in Minecraft
+# Mercury
+item.ingot_thallium.name=Thallium Ingot
+item.ingot_lead.name=Lead Ingot
+item.ingot_bismuth.name=Bismuth Ingot
+# Polonium
+# Astatine
+# Radon
+# Francium
+# Radium
+# Actinium
+# Thorium
+# Protactinium
+# Uranium
+# Neptunium
+# Plutonium
+item.ingot_americium.name=Americium Ingot
+item.ingot_curium.name=Curium Ingot
+item.ingot_berkelium.name=Berkelium Ingot
+item.ingot_californium.name=Californium Ingot
+
+# Material Blocks
+item.vial_hydrogen.name=Vial of Hydrogen
+# Helium
+# Lithium
+# Beryllium
+# Boron
+# Carbon
+# Nitrogen
+# Oxygen
+# Fluorine
+# Neon
+# Sodium
+item.ingot_magnesium.name=Magnesium Ingot
+item.ingot_aluminium.name=Aluminium Ingot
+item.ingot_silicon.name=Silicon Ingot
+# Phosphorus
+# Sulfur
+# Chlorine
+# Argon
+# Potassium would oxidise too quickly
+# Calcium would oxidise too quickly
+item.ingot_scandium.name=Scandium Ingot
+item.ingot_titanium.name=Titanium Ingot
+item.ingot_vanadium.name=Vanadium Ingot
+item.ingot_chromium.name=Chromium Ingot
+item.ingot_manganese.name=Manganese Ingot
+# Iron already in Minecraft
+item.ingot_cobalt.name=Cobalt Ingot
+item.ingot_nickel.name=Nickel Ingot
+item.ingot_copper.name=Copper Ingot
+item.ingot_zinc.name=Zinc Ingot
+item.ingot_gallium.name=Gallium Ingot
+item.ingot_germanium.name=Germanium Ingot
+item.vial_arsenic.name=Vial of Arsenic
+item.ingot_selenium.name=Selenium Ingot
+# Bromine
+# Krypton
+# Rubidium would oxidise too quickly
+item.vial_strontium.name=Vial of Strontium
+item.ingot_yttrium.name=Yttrium Ingot
+item.ingot_zirconium.name=Zirconium Ingot
+item.ingot_niobium.name=Niobium Ingot
+item.ingot_molybdenum.name=Molybdenum Ingot
+# Technetium eludes me. Apparently not natural
+item.ingot_ruthenium.name=Ruthenium Ingot
+item.ingot_rhodium.name=Rhodium Ingot
+item.ingot_palladium.name=Palladium Ingot
+item.ingot_silver.name=Silver Ingot
+item.ingot_cadmium.name=Cadmium Ingot
+item.ingot_indium.name=Indium Ingot
+item.ingot_tin.name=Tin Ingot
+item.ingot_antimony.name=Antimony Ingot
+item.ingot_tellurium.name=Tellurium Ingot
+# Iodine
+# Xenon
+# Caesium
+# Barium
+# Lanthanum
+# Cerium
+# Praseodymium
+item.ingot_neodymium.name=Neodymium Ingot
+#
+item.ingot_hafnium.name=Hafnium Ingot
+item.ingot_tantalum.name=Tantalum Ingot
+item.ingot_tungsten.name=Tungsten Ingot
+item.ingot_rhenium.name=Rhenium Ingot
+item.ingot_osmium.name=Osmium Ingot
+item.ingot_iridium.name=Iridium Ingot
+item.ingot_platinum.name=Platinum Ingot
+# Gold already in Minecraft
+# Mercury
+item.ingot_thallium.name=Thallium Ingot
+item.ingot_lead.name=Lead Ingot
+item.ingot_bismuth.name=Bismuth Ingot
+# Polonium
+# Astatine
+# Radon
+# Francium
+# Radium
+# Actinium
+# Thorium
+# Protactinium
+# Uranium
+# Neptunium
+# Plutonium
+item.ingot_americium.name=Americium Ingot
+item.ingot_curium.name=Curium Ingot
+item.ingot_berkelium.name=Berkelium Ingot
+item.ingot_californium.name=Californium Ingot
+
+# Blocks
+tile.mass_spectrometer.name=Mass Spectrometer
+tile.gas.chromatograph.name=Gas Chromatograph
+tile.liquid.chromatograph.name=Liquid Chromatograph
