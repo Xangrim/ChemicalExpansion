@@ -202,6 +202,26 @@ tile.ore_pyrolusite.name=Pyrolusite
 
 # Alloy Ingots
 
+# Material Dusts
+item.dust_iron.name=Iron Dust
+item.dust_copper.name=Copper Dust
+item.dust_zinc.name=Zinc Dust
+item.dust_titanium.name=Titanium Dust
+item.dust_aluminium.name=Aluminium Dust
+item.dust_lead.name=Lead Dust
+item.dust_nickel.name=Nickel Dust
+item.dust_tungsten.name=Tungsten Dust
+item.dust_manganese.name=Manganese Dust
+
+# Material Blocks
+tile.block_copper.name=Block of Copper
+tile.block_zinc.name=Block of Zinc
+tile.block_titanium.name=Block of Titanium
+tile.block_aluminium.name=Block of Aluminium
+tile.block_lead.name=Block of Lead
+tile.block_nickel.name=Block of Nickel
+tile.block_tungsten.name=Block of Tungsten
+tile.block_manganese.name=Block of Manganese
 
 # Ingots/Materials
 item.vial_hydrogen.name=Vial of Hydrogen

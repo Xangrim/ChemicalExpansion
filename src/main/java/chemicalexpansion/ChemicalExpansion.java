@@ -4,12 +4,14 @@ import chemicalexpansion.client.MainTab;
 import chemicalexpansion.common.block.ModBlocks;
 import chemicalexpansion.common.item.ModItems;
 import chemicalexpansion.common.recipe.ModRecipes;
+import chemicalexpansion.common.world.ModWorldGeneration;
 import chemicalexpansion.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /********************************
  Copyright (C) Xangrim, 2016
@@ -40,6 +42,7 @@ public class ChemicalExpansion {
         System.out.println(NAME + " is loading!");
         ModItems.init();
         ModBlocks.init();
+        GameRegistry.registerWorldGenerator(new ModWorldGeneration(), 3);
     }
 
     @Mod.EventHandler
