@@ -62,19 +62,19 @@ public class ModItems {
     public static ItemBase ingot_californium;
 
     public static void init() {
-        register(ingot_beryllium = new ItemBase("ingot_beryllium"));
+        register(ingot_beryllium = new ItemOre("ingot_beryllium", "ingotBeryllium"));
         register(ingot_magnesium = new ItemBase("ingot_magnesium"));
-        register(ingot_aluminium = new ItemBase("ingot_aluminium"));
+        register(ingot_aluminium = new ItemOre("ingot_aluminium", "ingotAluminium"));
         register(ingot_silicon = new ItemBase("ingot_silicon"));
         register(ingot_scandium = new ItemBase("ingot_scandium"));
-        register(ingot_titanium = new ItemBase("ingot_titanium"));
+        register(ingot_titanium = new ItemOre("ingot_titanium", "ingotTitanium"));
         register(ingot_vanadium = new ItemBase("ingot_vanadium"));
         register(ingot_chromium = new ItemBase("ingot_chromium"));
-        register(ingot_manganese = new ItemBase("ingot_manganese"));
+        register(ingot_manganese = new ItemOre("ingot_manganese", "ingotManganese"));
         register(ingot_cobalt = new ItemBase("ingot_cobalt"));
-        register(ingot_nickel = new ItemBase("ingot_nickel"));
-        register(ingot_copper = new ItemBase("ingot_copper"));
-        register(ingot_zinc = new ItemBase("ingot_zinc"));
+        register(ingot_nickel = new ItemOre("ingot_nickel", "ingotNickel"));
+        register(ingot_copper = new ItemOre("ingot_copper", "ingotCopper"));
+        register(ingot_zinc = new ItemOre("ingot_zinc", "ingotZinc"));
         register(ingot_gallium = new ItemBase("ingot_gallium"));
         register(ingot_germanium = new ItemBase("ingot_germanium"));
         register(ingot_selenium = new ItemBase("ingot_selenium"));
@@ -94,13 +94,13 @@ public class ModItems {
         register(ingot_neodymium = new ItemBase("ingot_neodymium"));
         register(ingot_hafnium = new ItemBase("ingot_hafnium"));
         register(ingot_tantalum = new ItemBase("ingot_tantalum"));
-        register(ingot_tungsten = new ItemBase("ingot_tungsten"));
+        register(ingot_tungsten = new ItemOre("ingot_tungsten", "ingotTungsten"));
         register(ingot_rhenium = new ItemBase("ingot_rhenium"));
         register(ingot_osmium = new ItemBase("ingot_osmium"));
         register(ingot_iridium = new ItemBase("ingot_iridium"));
         register(ingot_platinum = new ItemBase("ingot_platinum"));
         register(ingot_thallium = new ItemBase("ingot_thallium"));
-        register(ingot_lead = new ItemBase("ingot_lead"));
+        register(ingot_lead = new ItemOre("ingot_lead", "ingotLead"));
         register(ingot_bismuth = new ItemBase("ingot_bismuth"));
         register(ingot_americium = new ItemBase("ingot_americium"));
         register(ingot_curium = new ItemBase("ingot_curium"));
@@ -113,6 +113,10 @@ public class ModItems {
 
         if (item instanceof ItemBase) {
             ((ItemBase)item).registerItemModel();
+        }
+
+        if(item instanceof ItemOreDict) {
+            ((ItemOreDict)item).initOreDict();
         }
 
         return item;

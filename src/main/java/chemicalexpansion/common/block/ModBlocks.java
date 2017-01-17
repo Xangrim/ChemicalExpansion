@@ -1,7 +1,8 @@
 package chemicalexpansion.common.block;
 
+import chemicalexpansion.common.item.ItemOreDict;
 import net.minecraft.block.Block;
-import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -25,16 +26,34 @@ public class ModBlocks {
     public static BlockOre ore_bauxite;
     public static BlockOre ore_wolframite;
     public static BlockOre ore_pyrolusite;
+    public static BlockBase block_copper;
+    public static BlockBase block_zinc;
+    public static BlockBase block_titanium;
+    public static BlockBase block_nickel;
+    public static BlockBase block_lead;
+    public static BlockBase block_aluminium;
+    public static BlockBase block_tungsten;
+    public static BlockBase block_manganese;
 
     public static void init() {
-        ore_chalcopyrite = register(new BlockOre("ore_chalcopyrite"));
-        ore_sphalerite = register(new BlockOre("ore_sphalerite"));
-        ore_ilmenite = register(new BlockOre("ore_ilmenite"));
-        ore_garnierite = register(new BlockOre("ore_garnierite"));
-        ore_galena = register(new BlockOre("ore_galena"));
-        ore_bauxite = register(new BlockOre("ore_bauxite"));
-        ore_wolframite = register(new BlockOre("ore_wolframite"));
-        ore_pyrolusite = register(new BlockOre("ore_pyrolusite"));
+        // Ores
+        ore_chalcopyrite = register(new BlockOre("ore_chalcopyrite", "oreCopper"));
+        ore_sphalerite = register(new BlockOre("ore_sphalerite", "oreZinc"));
+        ore_ilmenite = register(new BlockOre("ore_ilmenite", "oreTitanium"));
+        ore_garnierite = register(new BlockOre("ore_garnierite", "oreNickel"));
+        ore_galena = register(new BlockOre("ore_galena", "oreLead"));
+        ore_bauxite = register(new BlockOre("ore_bauxite", "oreAluminium"));
+        ore_wolframite = register(new BlockOre("ore_wolframite", "oreTungsten"));
+        ore_pyrolusite = register(new BlockOre("ore_pyrolusite", "oreManganese"));
+        // Material Blocks
+        block_copper = register(new BlockBase(Material.IRON, "block_copper"));
+        block_zinc = register(new BlockBase(Material.IRON, "block_zinc"));
+        block_titanium = register(new BlockBase(Material.IRON, "block_titanium"));
+        block_nickel = register(new BlockBase(Material.IRON, "block_nickel"));
+        block_lead = register(new BlockBase(Material.IRON, "block_lead"));
+        block_aluminium = register(new BlockBase(Material.IRON, "block_aluminium"));
+        block_tungsten = register(new BlockBase(Material.IRON, "block_tungsten"));
+        block_manganese = register(new BlockBase(Material.IRON, "block_manganese"));
     }
 
     private static <T extends Block> T register(T block, ItemBlock itemBlock) {
@@ -43,6 +62,12 @@ public class ModBlocks {
 
         if (block instanceof BlockBase) {
             ((BlockBase)block).registerItemModel(itemBlock);
+        }
+        if (block instanceof ItemOreDict) {
+            ((ItemOreDict)block).initOreDict();
+        }
+        if (itemBlock instanceof ItemOreDict) {
+            ((ItemOreDict)itemBlock).initOreDict();
         }
 
         return block;
