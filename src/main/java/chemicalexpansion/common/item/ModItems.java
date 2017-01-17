@@ -1,7 +1,5 @@
 package chemicalexpansion.common.item;
 
-import chemicalexpansion.common.Element;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -17,9 +15,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 
-    //public static ItemBase e_001;
-    //public static ItemBase e_002;
-    //public static ItemBase e_003;
     public static ItemBase eItem;
     public static ItemBase ingot_beryllium;
     public static ItemBase ingot_magnesium;
@@ -67,13 +62,6 @@ public class ModItems {
     public static ItemBase ingot_californium;
 
     public static void init() {
-        //e_001 = register(new ItemBase("e_001").setCreativeTab(CreativeTabs.MATERIALS));
-        //e_002 = register(new ItemBase("e_002").setCreativeTab(CreativeTabs.MATERIALS));
-        //e_003 = register(new ItemBase("e_003").setCreativeTab(CreativeTabs.MATERIALS));
-        ItemElement.init();
-        for (Element e : ItemElement.getElements()) {
-            register(eItem = new ItemBase("e_" + e.atomNumber.toString()));
-        }
         register(ingot_beryllium = new ItemBase("ingot_beryllium"));
         register(ingot_magnesium = new ItemBase("ingot_magnesium"));
         register(ingot_aluminium = new ItemBase("ingot_aluminium"));

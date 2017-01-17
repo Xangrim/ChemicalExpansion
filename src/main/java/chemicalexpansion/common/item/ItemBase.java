@@ -2,9 +2,7 @@ package chemicalexpansion.common.item;
 
 import chemicalexpansion.ChemicalExpansion;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 
 import java.util.List;
 

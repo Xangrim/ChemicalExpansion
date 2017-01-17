@@ -3,6 +3,7 @@ package chemicalexpansion;
 import chemicalexpansion.client.MainTab;
 import chemicalexpansion.common.block.ModBlocks;
 import chemicalexpansion.common.item.ModItems;
+import chemicalexpansion.common.recipe.ModRecipes;
 import chemicalexpansion.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -43,7 +44,7 @@ public class ChemicalExpansion {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        ModRecipes.init();
     }
 
     @Mod.EventHandler
