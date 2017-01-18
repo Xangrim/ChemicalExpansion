@@ -60,6 +60,15 @@ public class ModItems {
     public static ItemBase ingot_curium;
     public static ItemBase ingot_berkelium;
     public static ItemBase ingot_californium;
+    public static ItemBase dust_copper;
+    public static ItemBase dust_aluminium;
+    public static ItemBase dust_zinc;
+    public static ItemBase dust_nickel;
+    public static ItemBase dust_titanium;
+    public static ItemBase dust_manganese;
+    public static ItemBase dust_tungsten;
+    public static ItemBase dust_iron;
+    public static ItemBase dust_lead;
 
     public static void init() {
         register(ingot_beryllium = new ItemOre("ingot_beryllium", "ingotBeryllium"));
@@ -106,6 +115,16 @@ public class ModItems {
         register(ingot_curium = new ItemBase("ingot_curium"));
         register(ingot_berkelium = new ItemBase("ingot_berkelium"));
         register(ingot_californium = new ItemBase("ingot_californium"));
+        // Dusts
+        register(dust_aluminium = new ItemOre("dust_aluminium", "dustAluminium"));
+        register(dust_aluminium = new ItemOre("dust_copper", "dustCopper"));
+        register(dust_aluminium = new ItemOre("dust_zinc", "dustZinc"));
+        register(dust_aluminium = new ItemOre("dust_nickel", "dustNickel"));
+        register(dust_aluminium = new ItemOre("dust_titanium", "dustTitanium"));
+        register(dust_aluminium = new ItemOre("dust_manganese", "dustManganese"));
+        register(dust_aluminium = new ItemOre("dust_tungsten", "dustTungsten"));
+        register(dust_aluminium = new ItemOre("dust_lead", "dustLead"));
+        register(dust_aluminium = new ItemOre("dust_iron", "dustIron"));
     }
 
     private static <T extends Item> T register(T item) {

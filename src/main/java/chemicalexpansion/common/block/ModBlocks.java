@@ -1,5 +1,6 @@
 package chemicalexpansion.common.block;
 
+import chemicalexpansion.common.block.counter.BlockCounter;
 import chemicalexpansion.common.item.ItemOreDict;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -26,6 +27,25 @@ public class ModBlocks {
     public static BlockOre ore_bauxite;
     public static BlockOre ore_wolframite;
     public static BlockOre ore_pyrolusite;
+    // Extension
+    public static BlockOre ore_cinnabar;
+    public static BlockOre ore_cassiterite;
+    public static BlockOre ore_columbite;
+    public static BlockOre ore_tantalite;
+    public static BlockOre ore_argentite;
+    public static BlockOre ore_cobaltite;
+    public static BlockOre ore_molybdenite;
+    public static BlockOre ore_magnesite;
+    public static BlockOre ore_beryl;
+    public static BlockOre ore_sperrylite;
+    public static BlockOre ore_spodumene;
+    public static BlockOre ore_uraninite;
+    public static BlockOre ore_baryte;
+    public static BlockOre ore_ulexite;
+    public static BlockOre ore_apatite;
+    public static BlockOre ore_sulfur;
+    public static BlockOre ore_pollucite;
+    //
     public static BlockBase block_copper;
     public static BlockBase block_zinc;
     public static BlockBase block_titanium;
@@ -34,6 +54,7 @@ public class ModBlocks {
     public static BlockBase block_aluminium;
     public static BlockBase block_tungsten;
     public static BlockBase block_manganese;
+    public static BlockCounter counter;
 
     public static void init() {
         // Ores
@@ -45,6 +66,8 @@ public class ModBlocks {
         ore_bauxite = register(new BlockOre("ore_bauxite", "oreAluminium"));
         ore_wolframite = register(new BlockOre("ore_wolframite", "oreTungsten"));
         ore_pyrolusite = register(new BlockOre("ore_pyrolusite", "oreManganese"));
+        // Extension
+        ore_cinnabar = register(new BlockOre("ore_cinnabar", "oreMercury"));
         // Material Blocks
         block_copper = register(new BlockBase(Material.IRON, "block_copper"));
         block_zinc = register(new BlockBase(Material.IRON, "block_zinc"));
@@ -54,6 +77,8 @@ public class ModBlocks {
         block_aluminium = register(new BlockBase(Material.IRON, "block_aluminium"));
         block_tungsten = register(new BlockBase(Material.IRON, "block_tungsten"));
         block_manganese = register(new BlockBase(Material.IRON, "block_manganese"));
+        // Machines
+        counter = register(new BlockCounter());
     }
 
     private static <T extends Block> T register(T block, ItemBlock itemBlock) {
@@ -68,6 +93,9 @@ public class ModBlocks {
         }
         if (itemBlock instanceof ItemOreDict) {
             ((ItemOreDict)itemBlock).initOreDict();
+        }
+        if (block instanceof BlockTileEntity) {
+            GameRegistry.registerTileEntity(((BlockTileEntity<?>)block).getTileEntityClass(), block.getRegistryName().toString());
         }
 
         return block;
