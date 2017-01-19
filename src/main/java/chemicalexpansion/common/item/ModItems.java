@@ -15,129 +15,161 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 
-    public static ItemBase eItem;
-    public static ItemBase ingot_beryllium;
-    public static ItemBase ingot_magnesium;
-    public static ItemBase ingot_aluminium;
-    public static ItemBase ingot_silicon;
-    public static ItemBase ingot_scandium;
-    public static ItemBase ingot_titanium;
-    public static ItemBase ingot_vanadium;
-    public static ItemBase ingot_chromium;
-    public static ItemBase ingot_manganese;
-    public static ItemBase ingot_cobalt;
-    public static ItemBase ingot_nickel;
-    public static ItemBase ingot_copper;
-    public static ItemBase ingot_zinc;
-    public static ItemBase ingot_gallium;
-    public static ItemBase ingot_germanium;
-    public static ItemBase ingot_selenium;
-    public static ItemBase ingot_yttrium;
-    public static ItemBase ingot_zirconium;
-    public static ItemBase ingot_niobium;
-    public static ItemBase ingot_molybdenum;
-    public static ItemBase ingot_ruthenium;
-    public static ItemBase ingot_rhodium;
-    public static ItemBase ingot_palladium;
-    public static ItemBase ingot_silver;
-    public static ItemBase ingot_cadmium;
-    public static ItemBase ingot_indium;
-    public static ItemBase ingot_tin;
-    public static ItemBase ingot_antimony;
-    public static ItemBase ingot_tellurium;
-    public static ItemBase ingot_neodymium;
-    public static ItemBase ingot_hafnium;
-    public static ItemBase ingot_tantalum;
-    public static ItemBase ingot_tungsten;
-    public static ItemBase ingot_rhenium;
-    public static ItemBase ingot_osmium;
-    public static ItemBase ingot_iridium;
-    public static ItemBase ingot_platinum;
-    public static ItemBase ingot_thallium;
-    public static ItemBase ingot_lead;
-    public static ItemBase ingot_bismuth;
-    public static ItemBase ingot_americium;
-    public static ItemBase ingot_curium;
-    public static ItemBase ingot_berkelium;
-    public static ItemBase ingot_californium;
-    public static ItemBase dust_copper;
-    public static ItemBase dust_aluminium;
-    public static ItemBase dust_zinc;
-    public static ItemBase dust_nickel;
-    public static ItemBase dust_titanium;
-    public static ItemBase dust_manganese;
-    public static ItemBase dust_tungsten;
-    public static ItemBase dust_iron;
-    public static ItemBase dust_lead;
+    public static ItemOre ingot_beryllium;
+    public static ItemOre ingot_magnesium;
+    public static ItemOre ingot_aluminium;
+    public static ItemOre ingot_silicon;
+    public static ItemOre ingot_scandium;
+    public static ItemOre ingot_titanium;
+    public static ItemOre ingot_vanadium;
+    public static ItemOre ingot_chromium;
+    public static ItemOre ingot_manganese;
+    public static ItemOre ingot_cobalt;
+    public static ItemOre ingot_nickel;
+    public static ItemOre ingot_copper;
+    public static ItemOre ingot_zinc;
+    public static ItemOre ingot_gallium;
+    public static ItemOre ingot_germanium;
+    public static ItemOre ingot_selenium;
+    public static ItemOre ingot_yttrium;
+    public static ItemOre ingot_zirconium;
+    public static ItemOre ingot_niobium;
+    public static ItemOre ingot_molybdenum;
+    public static ItemOre ingot_ruthenium;
+    public static ItemOre ingot_rhodium;
+    public static ItemOre ingot_palladium;
+    public static ItemOre ingot_silver;
+    public static ItemOre ingot_cadmium;
+    public static ItemOre ingot_indium;
+    public static ItemOre ingot_tin;
+    public static ItemOre ingot_antimony;
+    public static ItemOre ingot_tellurium;
+    public static ItemOre ingot_neodymium;
+    public static ItemOre ingot_hafnium;
+    public static ItemOre ingot_tantalum;
+    public static ItemOre ingot_tungsten;
+    public static ItemOre ingot_rhenium;
+    public static ItemOre ingot_osmium;
+    public static ItemOre ingot_iridium;
+    public static ItemOre ingot_platinum;
+    public static ItemOre ingot_thallium;
+    public static ItemOre ingot_lead;
+    public static ItemOre ingot_bismuth;
+    public static ItemOre ingot_americium;
+    public static ItemOre ingot_curium;
+    public static ItemOre ingot_berkelium;
+    public static ItemOre ingot_californium;
+    public static ItemOre dust_copper;
+    public static ItemOre dust_aluminium;
+    public static ItemOre dust_zinc;
+    public static ItemOre dust_nickel;
+    public static ItemOre dust_titanium;
+    public static ItemOre dust_manganese;
+    public static ItemOre dust_tungsten;
+    public static ItemOre dust_iron;
+    public static ItemOre dust_lead;
 
     public static void init() {
-        register(ingot_beryllium = new ItemOre("ingot_beryllium", "ingotBeryllium"));
-        register(ingot_magnesium = new ItemBase("ingot_magnesium"));
-        register(ingot_aluminium = new ItemOre("ingot_aluminium", "ingotAluminium"));
-        register(ingot_silicon = new ItemBase("ingot_silicon"));
-        register(ingot_scandium = new ItemBase("ingot_scandium"));
-        register(ingot_titanium = new ItemOre("ingot_titanium", "ingotTitanium"));
-        register(ingot_vanadium = new ItemBase("ingot_vanadium"));
-        register(ingot_chromium = new ItemBase("ingot_chromium"));
-        register(ingot_manganese = new ItemOre("ingot_manganese", "ingotManganese"));
-        register(ingot_cobalt = new ItemBase("ingot_cobalt"));
-        register(ingot_nickel = new ItemOre("ingot_nickel", "ingotNickel"));
-        register(ingot_copper = new ItemOre("ingot_copper", "ingotCopper"));
-        register(ingot_zinc = new ItemOre("ingot_zinc", "ingotZinc"));
-        register(ingot_gallium = new ItemBase("ingot_gallium"));
-        register(ingot_germanium = new ItemBase("ingot_germanium"));
-        register(ingot_selenium = new ItemBase("ingot_selenium"));
-        register(ingot_yttrium = new ItemBase("ingot_yttrium"));
-        register(ingot_zirconium = new ItemBase("ingot_zirconium"));
-        register(ingot_niobium = new ItemBase("ingot_niobium"));
-        register(ingot_molybdenum = new ItemBase("ingot_molybdenum"));
-        register(ingot_ruthenium = new ItemBase("ingot_ruthenium"));
-        register(ingot_rhodium = new ItemBase("ingot_rhodium"));
-        register(ingot_palladium = new ItemBase("ingot_palladium"));
-        register(ingot_silver = new ItemBase("ingot_silver"));
-        register(ingot_cadmium = new ItemBase("ingot_cadmium"));
-        register(ingot_indium = new ItemBase("ingot_indium"));
-        register(ingot_tin = new ItemBase("ingot_tin"));
-        register(ingot_antimony = new ItemBase("ingot_antimony"));
-        register(ingot_tellurium = new ItemBase("ingot_tellurium"));
-        register(ingot_neodymium = new ItemBase("ingot_neodymium"));
-        register(ingot_hafnium = new ItemBase("ingot_hafnium"));
-        register(ingot_tantalum = new ItemBase("ingot_tantalum"));
-        register(ingot_tungsten = new ItemOre("ingot_tungsten", "ingotTungsten"));
-        register(ingot_rhenium = new ItemBase("ingot_rhenium"));
-        register(ingot_osmium = new ItemBase("ingot_osmium"));
-        register(ingot_iridium = new ItemBase("ingot_iridium"));
-        register(ingot_platinum = new ItemBase("ingot_platinum"));
-        register(ingot_thallium = new ItemBase("ingot_thallium"));
-        register(ingot_lead = new ItemOre("ingot_lead", "ingotLead"));
-        register(ingot_bismuth = new ItemBase("ingot_bismuth"));
-        register(ingot_americium = new ItemBase("ingot_americium"));
-        register(ingot_curium = new ItemBase("ingot_curium"));
-        register(ingot_berkelium = new ItemBase("ingot_berkelium"));
-        register(ingot_californium = new ItemBase("ingot_californium"));
+        register(ingot_beryllium = new ItemOre("ingot_beryllium", "ingotBeryllium"));       // 4
+        register(ingot_magnesium = new ItemOre("ingot_magnesium", "ingotMagnesium"));       // 12
+        register(ingot_aluminium = new ItemOre("ingot_aluminium", "ingotAluminium"));       // 13
+        register(ingot_silicon = new ItemOre("ingot_silicon", "ingotSilicon"));             // 14
+        register(ingot_scandium = new ItemOre("ingot_scandium", "ingotScandium"));          // 
+        register(ingot_titanium = new ItemOre("ingot_titanium", "ingotTitanium"));          // 
+        register(ingot_vanadium = new ItemOre("ingot_vanadium", "ingotVanadium"));          // 
+        register(ingot_chromium = new ItemOre("ingot_chromium", "ingotChromium"));          // 
+        register(ingot_manganese = new ItemOre("ingot_manganese", "ingotManganese"));       // 
+        register(ingot_cobalt = new ItemOre("ingot_cobalt", "ingotCobalt"));                // 
+        register(ingot_nickel = new ItemOre("ingot_nickel", "ingotNickel"));                // 
+        register(ingot_copper = new ItemOre("ingot_copper", "ingotCopper"));                // 
+        register(ingot_zinc = new ItemOre("ingot_zinc", "ingotZinc"));                      // 
+        register(ingot_gallium = new ItemOre("ingot_gallium", "ingotGallium"));             // 
+        register(ingot_germanium = new ItemOre("ingot_germanium", "ingotGermanium"));       // 
+        register(ingot_selenium = new ItemOre("ingot_selenium", "ingotSelenium"));          // 
+        register(ingot_yttrium = new ItemOre("ingot_yttrium", "ingotYttrium"));             // 
+        register(ingot_zirconium = new ItemOre("ingot_zirconium", "ingotZirconium"));       // 
+        register(ingot_niobium = new ItemOre("ingot_niobium", "ingotNiobium"));             // 
+        register(ingot_molybdenum = new ItemOre("ingot_molybdenum", "ingotMolybdenum"));    // 
+        register(ingot_ruthenium = new ItemOre("ingot_ruthenium", "ingotRuthenium"));       // 
+        register(ingot_rhodium = new ItemOre("ingot_rhodium", "ingotRhodium"));             // 
+        register(ingot_palladium = new ItemOre("ingot_palladium", "ingotPalladium"));       // 
+        register(ingot_silver = new ItemOre("ingot_silver", "ingotSilver"));                // 
+        register(ingot_cadmium = new ItemOre("ingot_cadmium", "ingotCadmium"));             // 
+        register(ingot_indium = new ItemOre("ingot_indium", "ingotIndium"));                // 
+        register(ingot_tin = new ItemOre("ingot_tin", "ingotTin"));                         // 
+        register(ingot_antimony = new ItemOre("ingot_antimony", "ingotAntimony"));          // 
+        register(ingot_tellurium = new ItemOre("ingot_tellurium", "ingotTellurium"));       // 
+        register(ingot_neodymium = new ItemOre("ingot_neodymium", "ingotNeodymium"));       // 
+        register(ingot_hafnium = new ItemOre("ingot_hafnium", "ingotHafnium"));             // 
+        register(ingot_tantalum = new ItemOre("ingot_tantalum", "ingotTantalum"));          // 
+        register(ingot_tungsten = new ItemOre("ingot_tungsten", "ingotTungsten"));          // 
+        register(ingot_rhenium = new ItemOre("ingot_rhenium", "ingotRhenium"));             // 
+        register(ingot_osmium = new ItemOre("ingot_osmium", "ingotOsmium"));                // 
+        register(ingot_iridium = new ItemOre("ingot_iridium", "ingotIridium"));             // 
+        register(ingot_platinum = new ItemOre("ingot_platinum", "ingotPlatinum"));          // 
+        register(ingot_thallium = new ItemOre("ingot_thallium", "ingotThallium"));          // 
+        register(ingot_lead = new ItemOre("ingot_lead", "ingotLead"));                      // 
+        register(ingot_bismuth = new ItemOre("ingot_bismuth", "ingotBismuth"));             // 
+        register(ingot_americium = new ItemOre("ingot_americium", "ingotAmericium"));       // 
+        register(ingot_curium = new ItemOre("ingot_curium", "ingotCurium"));                // 
+        register(ingot_berkelium = new ItemOre("ingot_berkelium", "ingotBerkelium"));       // 
+        register(ingot_californium = new ItemOre("ingot_californium", "ingotCalifornium")); // 
         // Dusts
-        register(dust_aluminium = new ItemOre("dust_aluminium", "dustAluminium"));
-        register(dust_aluminium = new ItemOre("dust_copper", "dustCopper"));
-        register(dust_aluminium = new ItemOre("dust_zinc", "dustZinc"));
-        register(dust_aluminium = new ItemOre("dust_nickel", "dustNickel"));
-        register(dust_aluminium = new ItemOre("dust_titanium", "dustTitanium"));
-        register(dust_aluminium = new ItemOre("dust_manganese", "dustManganese"));
-        register(dust_aluminium = new ItemOre("dust_tungsten", "dustTungsten"));
-        register(dust_aluminium = new ItemOre("dust_lead", "dustLead"));
-        register(dust_aluminium = new ItemOre("dust_iron", "dustIron"));
+        register(dust_beryllium = new ItemOre("dust_beryllium", "dustBeryllium"));       // 4
+        register(dust_magnesium = new ItemOre("dust_magnesium", "dustMagnesium"));       // 12
+        register(dust_aluminium = new ItemOre("dust_aluminium", "dustAluminium"));       // 13
+        register(dust_silicon = new ItemOre("dust_silicon", "dustSilicon"));             // 14
+        register(dust_scandium = new ItemOre("dust_scandium", "dustScandium"));          // 
+        register(dust_titanium = new ItemOre("dust_titanium", "dustTitanium"));          // 
+        register(dust_vanadium = new ItemOre("dust_vanadium", "dustVanadium"));          // 
+        register(dust_chromium = new ItemOre("dust_chromium", "dustChromium"));          // 
+        register(dust_manganese = new ItemOre("dust_manganese", "dustManganese"));       // 
+        register(dust_cobalt = new ItemOre("dust_cobalt", "dustCobalt"));                // 
+        register(dust_nickel = new ItemOre("dust_nickel", "dustNickel"));                // 
+        register(dust_copper = new ItemOre("dust_copper", "dustCopper"));                // 
+        register(dust_zinc = new ItemOre("dust_zinc", "dustZinc"));                      // 
+        register(dust_gallium = new ItemOre("dust_gallium", "dustGallium"));             // 
+        register(dust_germanium = new ItemOre("dust_germanium", "dustGermanium"));       // 
+        register(dust_selenium = new ItemOre("dust_selenium", "dustSelenium"));          // 
+        register(dust_yttrium = new ItemOre("dust_yttrium", "dustYttrium"));             // 
+        register(dust_zirconium = new ItemOre("dust_zirconium", "dustZirconium"));       // 
+        register(dust_niobium = new ItemOre("dust_niobium", "dustNiobium"));             // 
+        register(dust_molybdenum = new ItemOre("dust_molybdenum", "dustMolybdenum"));    // 
+        register(dust_ruthenium = new ItemOre("dust_ruthenium", "dustRuthenium"));       // 
+        register(dust_rhodium = new ItemOre("dust_rhodium", "dustRhodium"));             // 
+        register(dust_palladium = new ItemOre("dust_palladium", "dustPalladium"));       // 
+        register(dust_silver = new ItemOre("dust_silver", "dustSilver"));                // 
+        register(dust_cadmium = new ItemOre("dust_cadmium", "dustCadmium"));             // 
+        register(dust_indium = new ItemOre("dust_indium", "dustIndium"));                // 
+        register(dust_tin = new ItemOre("dust_tin", "dustTin"));                         // 
+        register(dust_antimony = new ItemOre("dust_antimony", "dustAntimony"));          // 
+        register(dust_tellurium = new ItemOre("dust_tellurium", "dustTellurium"));       // 
+        register(dust_neodymium = new ItemOre("dust_neodymium", "dustNeodymium"));       // 
+        register(dust_hafnium = new ItemOre("dust_hafnium", "dustHafnium"));             // 
+        register(dust_tantalum = new ItemOre("dust_tantalum", "dustTantalum"));          // 
+        register(dust_tungsten = new ItemOre("dust_tungsten", "dustTungsten"));          // 
+        register(dust_rhenium = new ItemOre("dust_rhenium", "dustRhenium"));             // 
+        register(dust_osmium = new ItemOre("dust_osmium", "dustOsmium"));                // 
+        register(dust_iridium = new ItemOre("dust_iridium", "dustIridium"));             // 
+        register(dust_platinum = new ItemOre("dust_platinum", "dustPlatinum"));          // 
+        register(dust_thallium = new ItemOre("dust_thallium", "dustThallium"));          // 
+        register(dust_lead = new ItemOre("dust_lead", "dustLead"));                      // 
+        register(dust_bismuth = new ItemOre("dust_bismuth", "dustBismuth"));             // 
+        register(dust_americium = new ItemOre("dust_americium", "dustAmericium"));       // 
+        register(dust_curium = new ItemOre("dust_curium", "dustCurium"));                // 
+        register(dust_berkelium = new ItemOre("dust_berkelium", "dustBerkelium"));       // 
+        register(dust_californium = new ItemOre("dust_californium", "dustCalifornium")); // 
     }
 
     private static <T extends Item> T register(T item) {
         GameRegistry.register(item);
-
         if (item instanceof ItemBase) {
             ((ItemBase)item).registerItemModel();
         }
-
         if(item instanceof ItemOreDict) {
             ((ItemOreDict)item).initOreDict();
         }
-
         return item;
     }
+
 }
